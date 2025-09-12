@@ -1,0 +1,6 @@
+File,Channel,Scale,Unit,Width,Height,ScanX,ScanY,User,Date,Time,System,Mode,ActiveFraction,Cropped,Bias,BiasPhysUnit,SetPoint,SetPointPhysUnit
+20240919_Exp01_Au111_PtIr-1_CO_STM_0001_TopoFwd_20240920_121309.xyz,TopoFwd,-2.60913687478663e-07,nm,256,256,100.0,100.0,Supervisor,9/20/2024,12:13:09,,constant_current,1.000,No,-300.000,mV,2.0E-0011,A
+20240919_Exp01_Au111_PtIr-1_CO_STM_0002_TopoFwd_20240920_121434.xyz,TopoFwd,-2.60913687478663e-07,nm,256,256,35.0,35.0,Supervisor,9/20/2024,12:14:34,,constant_current,1.000,No,-300.000,mV,2.0E-0011,A
+20240919_Exp01_Au111_PtIr-1_CO_STM_0003_TopoFwd_20240920_121534.xyz,TopoFwd,-2.60913687478663e-07,nm,256,256,8.0,8.0,Supervisor,9/20/2024,12:15:34,,constant_current,1.000,No,-300.000,mV,2.0E-0011,A
+20240919_Exp01_Au111_PtIr-1_CO_STM_0004_TopoFwd_20240920_121623.xyz,TopoFwd,-2.60913687478663e-07,nm,256,256,15.0,15.0,Supervisor,9/20/2024,12:16:23,,constant_current,1.000,No,-300.000,mV,2.0E-0011,A
+20240919_Exp01_Au111_PtIr-1_CO_STM_0005_TopoFwd_20240920_121734.xyz,TopoFwd,-2.60913687478663e-07,nm,256,256,7.611,7.611,Supervisor,9/20/2024,12:17:34,,constant_current,1.000,No,-300.000,mV,2.0E-0011,A

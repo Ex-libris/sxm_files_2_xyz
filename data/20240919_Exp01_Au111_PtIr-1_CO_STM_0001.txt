@@ -1,0 +1,123 @@
+
+;ANFATEC Parameterfile
+
+Version : 1.12
+Date : 9/20/2024
+Time : 12:13:09
+UserName : Supervisor
+
+SetPoint         :  2.0E-0011
+SetPointPhysUnit : A
+FeedBackModus    : STM2
+Bias             :  -300.000
+BiasPhysUnit     : mV
+Ki               :   100.000
+Kp               :     0.000
+FeedbackOnCh     : 9
+
+Level_dzdx       : 1358627.882
+Level_dzdy       : -1931913.917
+
+XScanRange :   100.000
+YScanRange :   100.000
+XPhysUnit  : nm
+YPhysUnit  : nm
+Speed      :  4.000 ; lines/sec
+LineRate   :  2.000 ; lines/sec
+Angle      :   0.000
+xPixel     :    256
+yPixel     :    256
+yCenter    :     0.000
+xCenter    :     0.000
+dzdx       : dz/dx=0.924°
+dzdy       : dz/dy=-1.314°
+overscan[%]: 10.000
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001TopoFwd.int
+Caption  : TopoFwd
+Scale    : -2.60913687478663E-0007
+PhysUnit : nm
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001TopoBwd.int
+Caption  : TopoBwd
+Scale    : -2.60913687478663E-0007
+PhysUnit : nm
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001BiasFwd.int
+Caption  : BiasFwd
+Scale    :  9.40000000000000E-0007
+PhysUnit : mV
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001BiasBwd.int
+Caption  : BiasBwd
+Scale    :  9.40000000000000E-0007
+PhysUnit : mV
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001QPlusAmplFwd.int
+Caption  : QPlusAmplFwd
+Scale    :  3.64244277240492E-0009
+PhysUnit : V
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001It_extFwd.int
+Caption  : It_extFwd
+Scale    :  1.01100000000000E-0019
+PhysUnit : A
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001It_extBwd.int
+Caption  : It_extBwd
+Scale    :  1.01100000000000E-0019
+PhysUnit : A
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001InAFwd.int
+Caption  : InAFwd
+Scale    :  3.07991333007813E-0009
+PhysUnit : V
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001InABwd.int
+Caption  : InABwd
+Scale    :  3.07991333007813E-0009
+PhysUnit : V
+Offset   :  0.00000000000000E+0000
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001It_to_PCFwd.int
+Caption  : It_to_PCFwd
+Scale    :  8.04187011718750E-0020
+PhysUnit : A
+Offset   :  2.21099960253906E-0013
+FileDescEnd
+
+FileDescBegin
+FileName : 20240919_Exp01_Au111_PtIr-1_CO_STM_0001It_to_PCBwd.int
+Caption  : It_to_PCBwd
+Scale    :  8.04187011718750E-0020
+PhysUnit : A
+Offset   :  2.21099960253906E-0013
+FileDescEnd
+
