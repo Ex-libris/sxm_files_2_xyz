@@ -74,7 +74,7 @@ python export_to_ppt.py
 
 This will:
 - Read `valid_files_log.csv`.
-- Generate an `overview.pptx` file with all valid channels (2×3 grid per slide).
+- Generate an `overview.od` file with all valid channels (2×3 grid per slide).
 - Apply quick plane correction for visualization.
 
 ---
