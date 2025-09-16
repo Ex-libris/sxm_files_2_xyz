@@ -2,7 +2,7 @@
 
 
 This project converts Anfatec `.int` + `.txt` acquisition files into WSxM/Gwyddion-compatible ASCII `.xyz` files.  
-It also validates which channels are relevant, logs valid/invalid files, and produces a PowerPoint overview of the exported data.
+It also validates which channels are relevant, logs valid/invalid files, and produces a PowerPoint overview of the exported data. This last thing was inspired by the project SpmImageTycoon of Alex Riss (https://github.com/alexriss/SpmImageTycoon.jl) written in Julia and that is excellent for Nanonis files. 
 
 ---
 
