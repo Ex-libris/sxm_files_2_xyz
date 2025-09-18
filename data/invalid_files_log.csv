@@ -1,14 +1,14 @@
 File,Channel,Status,Reason,Mode,ActiveFraction,Cropped
 20240919_Exp01_Au111_PtIr-1_CO_STM_0000TopoFwd.int,TopoFwd,invalid,topography_flat_in_constant_height,constant_height,NA,NA
 20240919_Exp01_Au111_PtIr-1_CO_STM_0000TopoBwd.int,TopoBwd,invalid,backward_channel,constant_height,NA,NA
-20240919_Exp01_Au111_PtIr-1_CO_STM_0000BiasFwd.int,BiasFwd,invalid,too_few_unique_values (2),constant_height,NA,NA
+20240919_Exp01_Au111_PtIr-1_CO_STM_0000BiasFwd.int,BiasFwd,invalid,too_few_unique_values,constant_height,NA,NA
 20240919_Exp01_Au111_PtIr-1_CO_STM_0000BiasBwd.int,BiasBwd,invalid,backward_channel,constant_height,NA,NA
-20240919_Exp01_Au111_PtIr-1_CO_STM_0000QPlusAmplFwd.int,QPlusAmplFwd,invalid,too_little_acquired_area (1.2% active),constant_height,0.012,NA
-20240919_Exp01_Au111_PtIr-1_CO_STM_0000It_extFwd.int,It_extFwd,invalid,too_little_acquired_area (1.2% active),constant_height,0.012,NA
+20240919_Exp01_Au111_PtIr-1_CO_STM_0000QPlusAmplFwd.int,QPlusAmplFwd,invalid,too_little_acquired_area,constant_height,0.012,NA
+20240919_Exp01_Au111_PtIr-1_CO_STM_0000It_extFwd.int,It_extFwd,invalid,too_little_acquired_area,constant_height,0.012,NA
 20240919_Exp01_Au111_PtIr-1_CO_STM_0000It_extBwd.int,It_extBwd,invalid,backward_channel,constant_height,NA,NA
-20240919_Exp01_Au111_PtIr-1_CO_STM_0000InAFwd.int,InAFwd,invalid,too_little_acquired_area (1.2% active),constant_height,0.012,NA
+20240919_Exp01_Au111_PtIr-1_CO_STM_0000InAFwd.int,InAFwd,invalid,too_little_acquired_area,constant_height,0.012,NA
 20240919_Exp01_Au111_PtIr-1_CO_STM_0000InABwd.int,InABwd,invalid,backward_channel,constant_height,NA,NA
-20240919_Exp01_Au111_PtIr-1_CO_STM_0000It_to_PCFwd.int,It_to_PCFwd,invalid,too_little_acquired_area (1.2% active),constant_height,0.012,NA
+20240919_Exp01_Au111_PtIr-1_CO_STM_0000It_to_PCFwd.int,It_to_PCFwd,invalid,too_little_acquired_area,constant_height,0.012,NA
 20240919_Exp01_Au111_PtIr-1_CO_STM_0000It_to_PCBwd.int,It_to_PCBwd,invalid,backward_channel,constant_height,NA,NA
 20240919_Exp01_Au111_PtIr-1_CO_STM_0001TopoBwd.int,TopoBwd,invalid,backward_channel,constant_current,NA,NA
 20240919_Exp01_Au111_PtIr-1_CO_STM_0001BiasFwd.int,BiasFwd,invalid,not_relevant_in_constant_current,constant_current,NA,NA
