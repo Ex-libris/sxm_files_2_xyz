@@ -1,6 +1,8 @@
-numpy>=1.21
-matplotlib>=3.5
-pillow>=9.0
-tqdm>=4.62
-python-pptx>=0.6.21
-odfpy>=1.4.1
+# Core scientific stack
+numpy
+matplotlib
+
+# File and data handling
+pillow        # for image handling (PIL)
+tqdm          # for progress bars
+odfpy         # for ODF (.odp/.odt) export
