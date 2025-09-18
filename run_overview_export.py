@@ -71,20 +71,23 @@ def _save_image_png(img: np.ndarray, base_file: str) -> str:
 
 
 def _save_colorbar_png(img: np.ndarray, base_file: str, unit: str) -> str:
-    """
-    Save colorbar as PNG.
-    """
     vmin, vmax = np.nanmin(img), np.nanmax(img)
-    fig, ax = plt.subplots(figsize=(6, 0.5), dpi=300)
+
+    # match ODF frame ratio (8:0.6 = 13.3:1)
+    fig = plt.figure(figsize=(8, 0.6), dpi=300)
+    cax = fig.add_axes([0.1, 0.35, 0.8, 0.3])  # a thin strip across the figure
+
     norm = plt.Normalize(vmin=vmin, vmax=vmax)
-    fig.colorbar(
-        plt.cm.ScalarMappable(norm=norm, cmap="cividis"),
-        cax=ax, orientation="horizontal", label=unit
-    )
+    sm = plt.cm.ScalarMappable(norm=norm, cmap="cividis")
+    cb = fig.colorbar(sm, cax=cax, orientation="horizontal")
+    cb.set_label(unit)
+
     cbar_file = base_file + "_cbar.png"
-    plt.savefig(cbar_file, dpi=300, bbox_inches="tight", pad_inches=0.1)
+    plt.savefig(cbar_file, dpi=300, bbox_inches="tight", pad_inches=0.05)
     plt.close(fig)
     return cbar_file
+
+
 
 
 def xyz_to_pngs(xyz_file: str, base_file: str, entry: Dict[str, str]) -> Tuple[str, str]:
