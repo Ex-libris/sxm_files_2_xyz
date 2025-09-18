@@ -56,7 +56,7 @@ Rejected files with reasons for exclusion (backward channel, irrelevant channel,
 Place your `.txt` and `.int` files inside the `data/` folder, then run:
 
 ```bash
-python convert_sxm__to_xyz.py
+python run_convert_sxm_to_xyz.py
 ```
 
 This will:
@@ -70,7 +70,7 @@ This will:
 Once `.xyz` files exist, run:
 
 ```bash
-python export_to_ppt.py
+python run_overview_export.py
 ```
 
 This will:
