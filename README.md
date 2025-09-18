@@ -28,6 +28,13 @@ It also validates which channels are relevant, logs valid/invalid files, and pro
 
 ## Example Outputs
 
+
+### PowerPoint Overview
+Quick visual summary of all valid channels (plane corrected):
+
+![overview ppt](screenshots/overview.png)
+
+---
 ### Valid Export Log
 Each row corresponds to a valid exported channel with metadata:
 
@@ -42,12 +49,6 @@ Rejected files with reasons for exclusion (backward channel, irrelevant channel,
 
 ---
 
-### PowerPoint Overview
-Quick visual summary of all valid channels (plane corrected):
-
-![overview ppt](screenshots/overview.png)
-
----
 
 ## Usage
 
